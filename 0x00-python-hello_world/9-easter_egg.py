@@ -1,2 +1,2 @@
-#!/bin/pytho3
+#!/usr/bin/pytho3
 import this 
