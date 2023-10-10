@@ -11,4 +11,6 @@ def read_file(filename=""):
     """
     with open(filename, 'rt', encoding="UTF8") as file:
         """dlmv lf lm,dvldvm dg """
-        print(file.read())
+        read_data = file.read()
+
+        print(read_data, end="")
