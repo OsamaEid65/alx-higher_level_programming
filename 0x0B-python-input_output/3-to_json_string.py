@@ -2,6 +2,8 @@
 """ goo kbfkef eg e geknfs cfkdn"""
 import json
 """ksdnsd skegs dvbsvsekgnse fekf"""
+
+
 def to_json_string(my_obj):
     """jsdbvsdjgkls ksdv sdbvs ggsje
 
@@ -11,5 +13,5 @@ def to_json_string(my_obj):
 
     Raises:ishgiegkesg ,sdns bkrnbsk gegbewg sgn
     """
-    json_string=json.dumps(my_obj)
+    json_string = json.dumps(my_obj)
     return json_string
