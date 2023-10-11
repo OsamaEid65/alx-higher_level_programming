@@ -12,5 +12,5 @@ def write_file(filename="", text=""):
     Raises: sdknfdskbs dknsdk kdsgsdkbg sdbg
 
     """
-    with open(filename,'w',encoding='UTF8')as file :
-        return  file.write(text)
+    with open(filename, 'w', encoding='UTF8')as file:
+        return file.write(text)
