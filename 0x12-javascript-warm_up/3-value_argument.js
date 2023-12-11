@@ -1,12 +1,7 @@
 #!/usr/bin/node
-
-const command = process.argv.slice(2);
-
-if (command.length === 0) {
+if (process.argv[2] === undefined) {
   console.log('No argument');
 } else {
-  for (let i = 0; i < command.length; i++) {
-    console.log(command[i]);
-  }
+  console.log(process.argv[2]);
 }
 
